@@ -17,10 +17,10 @@ I ran into many problems as I was trying to use github for the first time. It wa
 Haven't we all had the experience of savoring a fresh, buttery, sweet Crumbl cookie, only for it to soon be gone, leaving us wishing for more? But then you remember the substantial price and the hastle to get one, so you rethink your craving. With my Copycat Cookbook, finding and sharing the cookie recipes we crave has never been so easy! You have access to that same crumbl recipe at your finger tips, just waiting for you to make and enjoy. With an option to share your own recipes as well, the community of cookies lovers is sure to be all over this new Copycat Cookbook!
 
 **key features: **
-*ability to create account, *
-*view cookie recipes others have uploaded, *
-*like or comment on a recipe, *
-*upload your own cookie recipe*
+*ability to create account, 
+view cookie recipes others have uploaded, 
+like or comment on a recipe, 
+upload your own cookie recipe*
 
 
 ![CCCB sketch](https://user-images.githubusercontent.com/122322464/214968887-e9488ea1-0d9b-4b8e-b404-35f9f96bd0e0.jpg)
