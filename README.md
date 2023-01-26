@@ -23,5 +23,5 @@ Haven't we all had the experience of savoring a fresh, buttery, sweet Crumbl coo
 *upload your own cookie recipe  *
 
 
-![sketch](https://photos.google.com/photo/AF1QipOal6apSyuXBEJjFNJO-CBfR9XdhFn6Pb-G1v6O)
+![CCCB sketch](https://user-images.githubusercontent.com/122322464/214968887-e9488ea1-0d9b-4b8e-b404-35f9f96bd0e0.jpg)
 
