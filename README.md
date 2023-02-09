@@ -25,3 +25,7 @@ upload your own cookie recipe*
 
 ![CCCB sketch](https://user-images.githubusercontent.com/122322464/214968887-e9488ea1-0d9b-4b8e-b404-35f9f96bd0e0.jpg)
 
+
+**HTML what I learned**
+I learned about the different tags needed in html files and how they work together to create the formatting. For the more obscure ones, google it! General structure is header, main, footer!
+
