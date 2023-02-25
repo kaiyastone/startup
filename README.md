@@ -23,3 +23,7 @@ upload your own cookie recipe*
 **HTML what I learned**
 I learned about the different tags needed in html files and how they work together to create the formatting. For the more obscure ones, google it! General structure is header, main, footer!
 
+
+**what I learned after the html and css deliverable**
+I have learned that designing a website is actually a really fun process that will suck you in as you try to perfect it. I learned that bootstrap is very useful for
+most formatting things that are common problems. I learned that you should use the live server as much as possible to troubleshoot and test what you have done. And also that the less complicated a website is, the easier it is for both the developer and the user!
