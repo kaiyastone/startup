@@ -27,3 +27,6 @@ I learned about the different tags needed in html files and how they work togeth
 **what I learned after the html and css deliverable**
 I have learned that designing a website is actually a really fun process that will suck you in as you try to perfect it. I learned that bootstrap is very useful for
 most formatting things that are common problems. I learned that you should use the live server as much as possible to troubleshoot and test what you have done. And also that the less complicated a website is, the easier it is for both the developer and the user!
+
+**what I learned after simon services**
+I learned that using node and express allow you to update, in our case scores, and be able to access that information from any computer. We create this web service to be able to listen on a network for http requests. It is really neat to see the back end of web applications. It turns out they are about as complicated and difficult to understand as I would have thought. When I implement it in my startup, I will be able to use it for keeping track of how many likes each post has gotten.
