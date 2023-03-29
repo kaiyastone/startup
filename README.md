@@ -34,3 +34,6 @@ I learned that using node and express allow you to update, in our case scores, a
 **notes about data services**
 (I did them on paper)
 ![data services notes](dataservicesnotes.jpg)
+
+**notes about login authentication**
+![login notes](loginNotes.jpg)
