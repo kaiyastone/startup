@@ -1,11 +1,19 @@
 class CookieHome {
 
     constructor() {
-        const playerNameE1 = document.querySelector('.player-name');
-        playerNameE1.textContent = this.getPlayerName();
+        this.likes = likes;
+
+        const playerNameEl = document.querySelector('.player-name');
+        playerNameEl.textContent = this.getPlayerName();
     }
 
     getPlayerName() {
         return localStorage.getItem('userName') ?? 'Mystery player';
 }
+
+    //getLikes() {
+    //    return localStorage.getItem('likes');
+    //}
 }
+
+const cookieHome = new CookieHome();
