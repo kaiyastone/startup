@@ -37,3 +37,6 @@ I learned that using node and express allow you to update, in our case scores, a
 
 **notes about login authentication**
 ![login notes](loginNotes.jpg)
+
+**notes about websockets**
+![websocket notes](websocketNotes.jpg)
