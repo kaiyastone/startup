@@ -30,3 +30,13 @@ most formatting things that are common problems. I learned that you should use t
 
 **what I learned after simon services**
 I learned that using node and express allow you to update, in our case scores, and be able to access that information from any computer. We create this web service to be able to listen on a network for http requests. It is really neat to see the back end of web applications. It turns out they are about as complicated and difficult to understand as I would have thought. When I implement it in my startup, I will be able to use it for keeping track of how many likes each post has gotten.
+
+**notes about data services**
+(I did them on paper)
+![data services notes](dataservicesnotes.jpg)
+
+**notes about login authentication**
+![login notes](loginNotes.jpg)
+
+**notes about websockets**
+![websocket notes](websocketNotes.jpg)
