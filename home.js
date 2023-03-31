@@ -28,7 +28,7 @@ function cinClickCounter() {
         localStorage.cinclickcount = Number(localStorage.cinclickcount)+1;
     }
     else {
-        localStorage.cinclickcount = 1;
+        localStorage.cinclickcount = 0;
     }
     document.getElementById("cinCount").innerHTML = localStorage.cinclickcount;
 }
@@ -40,7 +40,7 @@ function chocClickCounter() {
         localStorage.chocclickcount = Number(localStorage.chocclickcount)+1;
     }
     else {
-        localStorage.chocclickcount = 1;
+        localStorage.chocclickcount = 0;
     }
     document.getElementById("chocCount").innerHTML = localStorage.chocclickcount;
 }
@@ -53,7 +53,7 @@ function pbClickCounter() {
         localStorage.pbclickcount = Number(localStorage.pbclickcount)+1;
     }
     else {
-        localStorage.pbclickcount = 1;
+        localStorage.pbclickcount = 0;
     }
     document.getElementById("pbCount").innerHTML = localStorage.pbclickcount;
 }
