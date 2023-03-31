@@ -19,11 +19,27 @@ const cookieHome = new CookieHome();
 
 //track likes for each cookie
 let cinCount = 0;
-const button = document.getElementById("cinlikeButton");
-let countDisplay = document.getElementById("cinCount");
-button.addEventListener("click", function () {
+const cinButton = document.getElementById("cinlikeButton");
+let cinCountDisplay = document.getElementById("cinCount");
+cinButton.addEventListener("click", function () {
     cinCount++;
-    countDisplay.innerHTML = cinCount;
+    cinCountDisplay.innerHTML = cinCount;
+});
+
+let chocCount = 0;
+const chocButton = document.getElementById("choclikeButton");
+let chocCountDisplay = document.getElementById("chocCount");
+chocButton.addEventListener("click", function () {
+    chocCount++;
+    chocCountDisplay.innerHTML = chocCount;
+});
+
+let pbCount = 0;
+const pbButton = document.getElementById("pblikeButton");
+let pbCountDisplay = document.getElementById("pbCount");
+pbButton.addEventListener("click", function () {
+    pbCount++;
+    pbCountDisplay.innerHTML = pbCount;
 });
 
 
