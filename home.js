@@ -19,16 +19,6 @@ const cookieHome = new CookieHome();
 
 //track likes for each cookie and keep track in localstorage
 
-myclickCounter();
-
-function myclickCounter() {
-  if (localStorage.testclickcount) {
-    localStorage.testclickcount = Number(localStorage.testclickcount)+1;
-  } else {
-    localStorage.testclickcount = 1;
-  }
-  document.getElementById("test").innerHTML = localStorage.testclickcount;
-}
 
 
 cinClickCounter();
@@ -40,10 +30,10 @@ function cinClickCounter() {
     else {
         localStorage.cinclickcount = 1;
     }
-    document.getElementById("cinCount").innerHTML = localStorage.cinclickcount
+    document.getElementById("cinCount").innerHTML = localStorage.cinclickcount;
 }
 
-cinClickCounter();
+chocClickCounter();
 
 function chocClickCounter() {
     if (localStorage.chocclickcount) {
@@ -52,7 +42,7 @@ function chocClickCounter() {
     else {
         localStorage.chocclickcount = 1;
     }
-    document.getElementById("chocCount").innerHTML = localStorage.chocclickcount
+    document.getElementById("chocCount").innerHTML = localStorage.chocclickcount;
 }
 
 
@@ -65,5 +55,5 @@ function pbClickCounter() {
     else {
         localStorage.pbclickcount = 1;
     }
-    document.getElementById("pbCount").innerHTML = localStorage.pbclickcount
+    document.getElementById("pbCount").innerHTML = localStorage.pbclickcount;
 }
