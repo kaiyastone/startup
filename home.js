@@ -17,29 +17,53 @@ class CookieHome {
 const cookieHome = new CookieHome();
 
 
-//track likes for each cookie
-let cinCount = 0;
-const cinButton = document.getElementById("cinlikeButton");
-let cinCountDisplay = document.getElementById("cinCount");
-cinButton.addEventListener("click", function () {
-    cinCount++;
-    cinCountDisplay.innerHTML = cinCount;
-});
+//track likes for each cookie and keep track in localstorage
 
-let chocCount = 0;
-const chocButton = document.getElementById("choclikeButton");
-let chocCountDisplay = document.getElementById("chocCount");
-chocButton.addEventListener("click", function () {
-    chocCount++;
-    chocCountDisplay.innerHTML = chocCount;
-});
+myclickCounter();
 
-let pbCount = 0;
-const pbButton = document.getElementById("pblikeButton");
-let pbCountDisplay = document.getElementById("pbCount");
-pbButton.addEventListener("click", function () {
-    pbCount++;
-    pbCountDisplay.innerHTML = pbCount;
-});
+function myclickCounter() {
+  if (localStorage.testclickcount) {
+    localStorage.testclickcount = Number(localStorage.testclickcount)+1;
+  } else {
+    localStorage.testclickcount = 1;
+  }
+  document.getElementById("test").innerHTML = localStorage.testclickcount;
+}
 
 
+cinClickCounter();
+
+function cinClickCounter() {
+    if (localStorage.cinclickcount) {
+        localStorage.cinclickcount = Number(localStorage.cinclickcount)+1;
+    }
+    else {
+        localStorage.cinclickcount = 1;
+    }
+    document.getElementById("cinCount").innerHTML = localStorage.cinclickcount
+}
+
+cinClickCounter();
+
+function chocClickCounter() {
+    if (localStorage.chocclickcount) {
+        localStorage.chocclickcount = Number(localStorage.chocclickcount)+1;
+    }
+    else {
+        localStorage.chocclickcount = 1;
+    }
+    document.getElementById("chocCount").innerHTML = localStorage.chocclickcount
+}
+
+
+pbClickCounter();
+
+function pbClickCounter() {
+    if (localStorage.pbclickcount) {
+        localStorage.pbclickcount = Number(localStorage.pbclickcount)+1;
+    }
+    else {
+        localStorage.pbclickcount = 1;
+    }
+    document.getElementById("pbCount").innerHTML = localStorage.pbclickcount
+}
