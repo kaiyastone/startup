@@ -40,3 +40,8 @@ I learned that using node and express allow you to update, in our case scores, a
 
 **notes about websockets**
 ![websocket notes](websocketNotes.jpg)
+
+
+**notes for javascript**
+![page 1](jsnotes1.jpg)
+![page 2](jsnotes2.jpg)
