@@ -48,3 +48,6 @@ I learned that using node and express allow you to update, in our case scores, a
 
 **react cli**
 the react cli will configure a react application template for us to use as a starting place for the application when you download the package. 
+
+**notes about react**
+![react notes](reactnotes.jpg)
