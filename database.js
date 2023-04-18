@@ -11,3 +11,11 @@ if (!userName) {
 const url = `mongodb+srv://${userName}:${password}@${hostname}`;
 
 const client = new MongoClient(url);
+
+const collection = client.db('likes').collection('cookieLikes');
+
+const cookieLikes = {
+    pbLikes: ''
+}
+
+await collection.insertOne(cookieLikes);
