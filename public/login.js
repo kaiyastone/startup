@@ -55,7 +55,7 @@ async function loginOrCreate(endpoint) {
     }
 }
 
-function play() { /////hereeee (change play function?)
+function play() { 
     window.location.href = 'home.html';
 }
 
