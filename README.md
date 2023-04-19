@@ -51,3 +51,6 @@ the react cli will configure a react application template for us to use as a sta
 
 **notes about react**
 ![react notes](reactnotes.jpg)
+
+**notes after implementing the services portion**
+For the services deliverable, I converted my startup into a web service using node and express. I used service endpoints in order to use a random quote generator. I then implemented login capabilities using mongodb.
