@@ -29,7 +29,7 @@ async function loginUser() {
 }
 
 async function createUser() {
-    loginOrcreate(`/api/auth/create`);
+    loginOrCreate(`/api/auth/create`);
 }
 
 async function loginOrCreate(endpoint) {
@@ -44,7 +44,7 @@ async function loginOrCreate(endpoint) {
     });
     const body = await response.json();
 
-    if (resonse?.status === 200) {
+    if (response?.status === 200) {
         localStorage.setItem('userName', userName);
         window.location.href = 'home.html';
     } else {

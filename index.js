@@ -1,8 +1,8 @@
 const cookieParser = require('cookie-parser');
-const bcrypt = require('becrypt');
+const bcrypt = require('bcrypt');
 const express = require('express');
 const app = express();
-const DB = requre('./database.js');
+const DB = require('./database.js');
 
 const authCookieName = 'token';
 
@@ -22,7 +22,7 @@ apiRouter.post(`/auth/create`, async (req, res) => {
     if (await DB.getUser(req.body.email)) {
         res.status(409).send({msg: 'Existing user' });
     } else {
-        const user = await DB.createUser(rq.body.email, req.body.password);
+        const user = await DB.createUser(req.body.email, req.body.password);
 
         setAuthCookie(res, user.token);
 
@@ -81,13 +81,29 @@ app.use((_req, res) => {
 });
 
 function setAuthCookie(res, authToken) {
-    res.cookie(authCookieName, authtoken, {
+    res.cookie(authCookieName, authToken, {
         secure: true,
         httpOnly: true,
         sameSite: 'strict',
     });
 }
 
+
+//go back to below code when things don't work
+/*const express = require('express');
+const app = express();
+
+const port = process.argv.length > 2? process.argv[2] : 4000;
+
+app.use(express.json());
+app.use(express.static('public'));
+
+const apiRouter = express.Router();
+app.use(`/api`, apiRouter);
+
+app.use((_req, res) => {
+    res.sendFile('index.html', {root: 'public'});
+});*/
 
 
 app.listen(port, () => {
